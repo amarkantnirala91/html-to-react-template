@@ -1,7 +1,5 @@
 const About = ()=>{
   return (
-    <div>
-       
   <section className="about_section layout_padding">
     <div className="container">
       <div className="row">
@@ -13,7 +11,7 @@ const About = ()=>{
             <p>
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
             </p>
-            <a href="">
+            <a href="#">
               Read More
             </a>
           </div>
@@ -26,7 +24,6 @@ const About = ()=>{
       </div>
     </div>
   </section>
-    </div>
   )
 }
 

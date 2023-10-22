@@ -1,4 +1,4 @@
-const Hero = () => {
+const Hero = ()=>{
   return (
     <div>
       <section className="slider_section professional_section">

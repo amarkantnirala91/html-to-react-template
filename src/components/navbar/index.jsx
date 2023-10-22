@@ -1,19 +1,18 @@
 import { Link } from "react-router-dom"
 const Navbar = ()=>{
   return (
-    <div>
-         <div className="hero_area">
+     <div className="hero_area">
       <header className="header_section">
       <div className="header_top">
         <div className="container-fluid">
           <div className="contact_nav">
-            <a href="">
+            <a href="#">
               <i className="fa fa-phone" aria-hidden="true"></i>
               <span>
                 Call : +01 123455678990
               </span>
             </a>
-            <a href="">
+            <a href="#">
               <i className="fa fa-envelope" aria-hidden="true"></i>
               <span>
                 Email : demo@gmail.com
@@ -55,7 +54,6 @@ const Navbar = ()=>{
         </div>
       </div>
     </header>
-    </div>
     </div>
   )
 }

@@ -5,11 +5,8 @@ import HomePage from "./components/home-page";
 import About from "./components/about";
 import Service from "./components";
 import Contact from "./components/contact";
-
-
 function App() {
   return (
-    <div>
        <BrowserRouter>
         <Navbar />
         <Routes >
@@ -20,7 +17,6 @@ function App() {
         </Routes>
         <Footer />
      </BrowserRouter>
-    </div>
   );
 }
 

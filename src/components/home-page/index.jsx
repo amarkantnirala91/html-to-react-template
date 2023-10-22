@@ -8,7 +8,7 @@ import ClientSection from "./client-section";
 
 const HomePage = ()=>{
   return (
-    <div>
+    <>
       <Hero />
        <Feature />
        <About />
@@ -16,7 +16,7 @@ const HomePage = ()=>{
        <OurService />
        <ClientSection />
        <Contact />
-    </div>
+    </>
   )
 }
 
